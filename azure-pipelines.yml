@@ -12,7 +12,7 @@ trigger:
       - provider.tf
 
 pool:
-  vmImage: ubuntu-latest
+  name: Agents
   # demands: agent.name -equals <name of agent>
 
 # variables: 
