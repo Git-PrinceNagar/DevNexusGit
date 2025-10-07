@@ -1,9 +1,9 @@
 trigger:
   branches:
     include:
-      - main
+      - feature/prince
     exclude:
-      - Feature/**  
+      - main
   paths:
     include:
       - main.tf
