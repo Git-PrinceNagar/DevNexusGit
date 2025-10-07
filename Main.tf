@@ -83,7 +83,3 @@ resource "azurerm_bastion_host" "bastion" {
     public_ip_address_id = azurerm_public_ip.bastion.id
   }
 }
-resource "azurerm_resource_group" "rg1" {
-  name     = "my-resources1"
-  location = "West Europe"
-}
